@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Events JS </title>
+    <script src="App.js"></script>
+   </head>
+<body>
+   
+    
+    <b style="font-size: 30px;color: blue;font-weight: bold;">Link :</b><a href="#" style="font-size: 30px;text-decoration: none;color: red;font-weight: bold;" onclick="alt()">
+        Click ME 
+      </a>
+         
+  <br><br><br>
+      <div style="background-color: palegreen;"  >
+    <h1 style="color: yellow;text-align: center;">Mobile Phone LookUp</h1>
+    <div style="display: inline-block; padding-left: 6px; cursor: pointer;" ><img src="images/M1.png" width="320px" height="300px" id="call" style="border: 1px solid;" onclick="pur()"><br><h1 style="margin-left: 20px; color:#ee0290;">IPhone 10 Max</h1></div>
+    <div style="display: inline-block; padding-left: 7px; cursor: pointer;"><img src="images/M2.png" width="320px" height="300px" style="border: 1px solid;" onclick="pur()"><h1 style="margin-left: 20px;color: #ee0290;">Vivo V19</h1></div>
+    <div style="display: inline-block; padding-left: 7px; cursor: pointer;"><img src="images/M3.png" width="320px" height="300px" style="border: 1px solid;" onclick="pur()"><h1 style="margin-left: 80px; color: #ee0290;"> Oppo Reno3 </h1></div>
+    <div style="display: inline-block; padding-left: 7px; cursor: pointer;"><img src="images/M4.png" width="320px" height="300px" style="border: 1px solid;" onclick="pur()"><h1 style="margin-left: 80px; color: #ee0290;">Samsung S6 Edge</h1></div>
+  
+  </div>
+  <br>
+  <div style="background-color:yellowgreen;">
+      <img  id='img1' onmouseover="f1()" onmouseout="f2()" src="images/car.png" >
+      <h1 id="txt"> images</h1>
+  </div>
+  <table id="myTable"  style="border: 3px solid #42A5F5;" >
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+    </tr>
+      <tr>
+        <td>0</td>
+        <td>Mubashir </td>
+        <td>12</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Asad</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Aisha</td>
+        <td>12</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Omer</td>
+        <td>12</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Yusra</td>
+        <td>9</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Usman</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Muneeb</td>
+        <td>8</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Fatima</td>
+        <td>9</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Maryam</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Rahul</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      
+    </table> 
+    <div >
+      <h1 style="color: #42A5F5;"> Counter in browser</h1>
+      <h1 id='val'>0</h1>
+      <button type="button"  onclick="increment  ()" >INCREMENT</button>
+      <button type="button"  onclick="decrement()" >DECREMENT</button>
+      <button type="button"  onclick="Reset()" >RESET</button>
+  </div>
+  <br>
+</body>
+</html>
