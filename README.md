@@ -1,2 +1,2 @@
 # JavaScript Tasks by SMIT (MERN Stack Dev)
-JavaScript-Assignments
+JavaScript-OOP & DOM 
